@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .my-border {
+            border: 1px solid red;
+        }
+    </style>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // $('div[title!="div1"]').addClass('my-border')
+            // $('div[title$="div2"]').addClass('my-border')
+            // $('div[title^="a"]').addClass('my-border')
+            // $('div[title*="iv"]').addClass('my-border')
+            // $('div[title~="ab"]').addClass('my-border')
+            $('div[title|="div2"]').addClass('my-border')
+        })
+    </script>
+</head>
+<body>
+    <div class="demo" title="div1">
+        <span title="abc">First</span>
+    </div>
+    <div class="demo" title="adiv2">
+        <span>Second</span>
+    </div>
+    <div class="demo" title="div2-a">
+        <span>Third</span>
+    </div>
+    <div class="demo2" title="ab cd">
+        <span>Fourth</span>
+    </div>
+</body>
+</html>

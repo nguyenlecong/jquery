@@ -1,0 +1,7 @@
+- Toán tử so sánh bằng [name="value"]
+- Toán tử so sánh không bằng [name!="value"]
+- Toán tử so sánh chứa [name*="value"]
+- Toán tử so sánh chứa từ [name~="value"] trước, theo sau là dấu cách
+- Toán tử so sánh tiền tố bởi [name|="value"] theo dấu -
+- Toán tử so sánh bắt đầu bởi [name^="value"]
+- Toán tử so sánh kết thúc bởi [name$="value"]

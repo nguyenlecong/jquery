@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var employeeJson = [{
+                "name": 'A',
+                "age": 20,
+            },
+            {
+                "name": 'B',
+                "age": 21, 
+            }]
+            $('#result').html('name ' + employeeJson[1].name + ' age ' + employeeJson[1].age)
+        })
+    </script>
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+- Định nghĩa và cách khai báo JSON
+  - JavaScript Object Notation
+  - Là một định dạng nhỏ gọn dùng để truyền dữ liệu
+  - Rất dễ sử dụng và có thể thay thế XML
+  - Lưu trữ dữ liệu dưới dạng key/value
+- Mảng JSON
+- JSON nhiều cấp

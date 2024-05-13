@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var btn = $('#btn1')
+            if (btn.length > 0) {
+                btn.click(function() {
+                    alert('Ok')
+                    btn.css('background-color', 'yellow')
+                })
+            }
+            else {
+                alert('Element not found')
+            }
+        })
+    </script>
+</head>
+<body>
+    <button id="btn1">Click here</button>  <!-- Get only first one -->
+    <button id="btn1">Click here 1</button>
+</body>
+</html>

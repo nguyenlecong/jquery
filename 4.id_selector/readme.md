@@ -1,0 +1,7 @@
+- ID Selector là một khái niệm quan trọng nhất trong jQuery cho phép lấy và thao tác với các phần từ HTML
+- Có các loại selector khác nhau:
+  - ID
+  - Tag Name
+  - Class Name
+  - Attribute
+  - Attribute Value

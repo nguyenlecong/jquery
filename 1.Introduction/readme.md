@@ -1,0 +1,5 @@
+- jQuery là gì?
+  - Là 1 thư viện JS gọn nhẹ giúp việc lập trình với JS đơn giản hơn
+  - Nhanh, nhỏ gọn, có nhiều tính năng. Giúp thao tác dễ dàng với HTML như duyệt, thao tác, bắt sự kiện, hiệu ứng động và AJAX đơn giản hơn
+  - Hỗ trợ tương thích với nhiều trình duyệt khác nhau
+  - Có thể mở rộng

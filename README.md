@@ -4,7 +4,7 @@
 - [CDN](#3.CDN)
 - [ID Selector](#4.id_selector)
 - [Tag Selector](#5.tag_selector)
-
+- [Class Selector](#6.class_selector)
 
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)

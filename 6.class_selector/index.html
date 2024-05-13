@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.small').css('border', '1px solid green')
+            $('div .small').css('border', '1px solid red')  // cha-con
+            $('#last.small').css('border', '1px solid blue')  // đồng thời có cả id last và class small
+            $('.big').filter('.small').css('border', '1px solid yellow')  // lọc các big có small
+            $('.big').find('.small').css('border', '1px solid black')  // tìm các small trong các big
+
+        })
+    </script>
+</head>
+<body>
+    <div class="big">
+        <span class="small">Class Selector</span>
+    </div>
+    <div class="small">
+        <span>Class Selector 2</span>
+    </div>
+    <div id="last" class="small">
+        <div class="xsmall">Class Selector 2</div>
+    </div>
+</body>
+</html>

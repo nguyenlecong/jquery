@@ -1,0 +1,2 @@
+- Lấy ra các phần theo class, lồng nhau
+- Kết hợp với id selector, tag name selector

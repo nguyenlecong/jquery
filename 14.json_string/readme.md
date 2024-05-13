@@ -1,0 +1,3 @@
+- Chuyển đổi JSON sang string và ngược lại
+  - JSON.stringify()
+  - JSON.parse()

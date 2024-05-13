@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script></script>
+    <script>
+        $(document).ready(function() {
+            $('#btnSubmit').click(function() {
+                // $('li').each(function(index, element) {
+                //    // alert(index + $(element).text())
+                //    if ($(element).text()=='CHINA') {
+                //        return False
+                //    }
+                //    $(element).css('color', 'red')
+                // })
+
+                // $('li').css('color', 'red')  // Vòng lặp ngầm định
+
+                // var result = ''
+                // $('li').each(function(index, element) {
+                //    result += $(this).text() + '<br>'
+                // })
+                // $('#result').html(result)
+
+                $('li').css('color', 'red').slideUp(1000).slideDown(1000) // Method chaining
+            })
+        })
+    </script>
+</head>
+<body>
+    <ul>
+        <li>US</li>
+        <li>UK</li>
+        <li>VN</li>
+        <li>CHINA</li>
+        <li>PHIL</li>
+    </ul>
+    <br />
+    <input type="button" value="Submit" id="btnSubmit">
+    <br />
+    <div id="result"></div>
+</body>
+</html>

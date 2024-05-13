@@ -1,0 +1,5 @@
+- Cách sử dụng vòng lặp dùng hàm each()
+- Cách ngắt vòng lặp each
+- Vòng lặp each ngầm định
+- Tối ưu performance khi sử dụng vòng lặp each
+- Gọi method liên tiếp (method chaining)

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('div, a').css('background-color', 'yellow')
+            $('#table1 tr:even').css('background-color', 'grey')
+            $('#table1 tr:odd').css('background-color', 'yellow')
+            $('#table2 tr').each(function() {
+                if ($(this).find('td:first').text()=='D') {
+                    alert($(this).html())
+                }
+            })
+            alert($('div a').length)  // 1
+            alert($('a').length)  // 2
+        })
+    </script>
+</head>
+<body>
+    <table id="table1" style="border: 1px solid black;">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <br />
+    <table id="table2" style="border: 1px solid black;">
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <br />
+    <div>
+        <a href="https://www.google.com/">Google</a>
+    </div>
+    <br />
+    <a href="https://www.youtube.com/">YT</a>
+</body>
+</html>

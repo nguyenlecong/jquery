@@ -1,0 +1,6 @@
+- Lấy ra các phần tử theo tên thẻ, lồng nhau
+- Thao tác get-set thuộc tính css cho phần tử
+- Lấy nội dung html
+- Lặp qua các phần tử sử dụng this
+- Thao tác với dòng chẵn lẻ trong bảng
+- Kết hợp với id selector

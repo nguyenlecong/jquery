@@ -8,5 +8,6 @@
 7. Attribute Selector
 8. Operators
 9. Set-Get
+10. Radio and Checkbox
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)

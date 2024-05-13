@@ -1,0 +1,2 @@
+- Cách truy cập giá trị của Radio button (chọn 1)
+- Cách truy cập giá trị của Checkbox (chọn nhiều)

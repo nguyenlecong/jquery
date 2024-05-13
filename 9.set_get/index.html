@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script></script>
+    <script>
+        $(document).ready(function() {
+            $("#btn1").click(function() {
+                $("#label1").text('Click here')
+                $("#spanProp").text($('#ck1').prop('checked'))  // True/False
+                $("#spanAttr").text($('#ck1').attr('checked'))  // Actual Value
+            })
+            $("#btn2").click(function() {
+                alert($("#label1").text())
+                alert($("#div1").html())
+            })
+            $("#btn3").click(function() {
+                $("#label1").attr('style', 'color: red;')
+                $("#txt1").val('123')
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <label id="label1"></label>
+    <input type="text" id="txt1">
+    <br />
+    <button id="btn1">Click here</button>
+    <button id="btn2">Click here 2</button>
+    <button id="btn3">Click here 2</button>
+    <br />
+    <input type="checkbox" id="ck1" checked="checked">
+    <br />
+    <div id="div1">
+        <span id="spanProp"></span>
+        <span id="spanAttr"></span>
+    </div>
+</body>
+
+</html>

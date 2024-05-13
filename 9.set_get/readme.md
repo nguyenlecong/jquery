@@ -1,0 +1,6 @@
+- Cách set-get thuộc tính trong jQuery
+- Sự khác nhau giữa attr() và prop(): prop set-get nhanh hơn và tiện hơn với các giá trị nhị phân
+- Các phương thức:
+  - text(): gán hoặc lấy nội dung thuần văn bản từ phần tử
+  - html(): gán hoặc lấy nội dung HTML từ phần tử
+  - val(): gán hoặc lấy giá trị của trường

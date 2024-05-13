@@ -1,0 +1,2 @@
+- Cách truy cập giá trị và text của select dạng single
+- Cách truy cập giá trị và text của select dạng multiple

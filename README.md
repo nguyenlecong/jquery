@@ -14,5 +14,6 @@
 13. JSON
 14. JSON, String and .Net Objects
 15. Prepend and Append
+16. Insert Element befor and after
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)

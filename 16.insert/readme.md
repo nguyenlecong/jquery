@@ -1,0 +1,4 @@
+- Là các phương thức thao tác với DOM cho phép thêm phần tử HTML vào trước hoặc sau một phần tử trong selector
+- Các phương thức:
+  - before và insertBefore
+  - after và insertAfter

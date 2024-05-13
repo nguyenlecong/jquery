@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script></script>
+    <script>
+        $(window).load(function() {
+            // alert('Window loaded')
+            // Doi load xong anh -> luon luon lay duoc kich thuoc anh
+            $('#div1').html("Width:" + $("#img1").width() + ", Height:" + $("#img1").height())
+        })
+        $(document).ready(function() {  // $(function(){})
+            // alert('DOM loaded')  // -> Display first
+            // Chua load xong anh -> khong lay duoc kich thuoc anh
+            $('#div1').html("Width:" + $("#img1").width() + ", Height:" + $("#img1").height())
+        })
+    </script>
+</head>
+<body>
+    <div id="div1"></div>
+    <img id="img1" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg" alt="">
+</body>
+</html>

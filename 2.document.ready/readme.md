@@ -1,0 +1,10 @@
+- Sự kiện $(document).ready(function(){})
+  - Là 1 sự kiện trong jQuery
+  - Xảy ra đầu tiên khi DOM được load xong và sẵn sàng cho việc thao tác bởi Script
+  - Là sự kiện xảy ra sớm nhất trong quá trình tải trang thích hợp nhất cho việc truy cập các phần tử HTML
+  - Gọi trước khi tất cả các images, css... được load hoàn toàn
+- Sự khác nhau giữa $(window).load và $(document).ready
+  - $(window).load:
+    - Được gọi khi tất cả DOM và toàn bộ nội dung của trang khi được tải xong
+    - Bởi vì window load sẽ đợi cho đến khi các tài nguyên như hình ảnh, css... được tải hết thì mới xảy ra sự kiện này -> chạy sau $(document).ready
+  - Khi nào dùng cái nào -> index.html

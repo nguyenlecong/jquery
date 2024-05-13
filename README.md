@@ -1,10 +1,10 @@
 # jquery[^1]
-- [Introduction](#1.Introduction)
-- [document.ready](#2.document.ready)
-- [CDN](#3.CDN)
-- [ID Selector](#4.id_selector)
-- [Tag Selector](#5.tag_selector)
-- [Class Selector](#6.class_selector)
-
+1. Introduction
+2. document.ready
+3. CDN
+4. ID Selector
+5. Tag Selector
+6. Class Selector
+7. Attribute Selector
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)

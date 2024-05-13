@@ -1,0 +1,11 @@
+- CDN là gì?
+  - Content Delivery Nework là một hệ thống máy chủ phân tán chứa tài nguyên như images, css, js
+  - Các công ty như Microsoft, Google... đều có các máy chủ CDN public
+- Lợi ích:
+  - Hệ thống máy chủ phân tán
+  - Hỗ trợ caching của trình duyệt
+  - Tải xuống song song
+  - Giảm traffic cho server
+- Hạn chế:
+  - Firewall ở client có thể block CDN
+  - Nếu develop trong quá trình không có mạng thì không chạy được thư viện -> import từ file local

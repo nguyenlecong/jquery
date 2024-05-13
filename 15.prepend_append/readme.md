@@ -1,0 +1,7 @@
+- Prepend Element: Là thêm mới một nội dung nào đó vào phần tử đầu tiên của nội dung mỗi element thỏa mãn selector
+  - prepend() -> $('div').prepend('<x>Tutorial</x>')
+  - prepentTo() -> $('<x>Tutorial</x>').prependTo('div')
+- Append Element: Là thêm mới một nội dung nào đó vào cuối của một nội dung mỗi element thỏa mãn selector
+  - append() -> $('div').append('<x>Tutorial</x>')
+  - appentTo() -> $('<x>Tutorial</x>').appendTo('div')
+- Append hoặc Prepend một Element có sẵn

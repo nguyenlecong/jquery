@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script></script>
+    <script>
+        $(document).ready(function() {
+            $('#btnSubmit').click(function() {
+                // $('div').prepend('Programming ')
+                // $('</>Programming </>').prependTo('div')
+                // $('div').append(' Programming')
+                // $('</> Programming</>').appendTo('div')
+                $('div').append($('#existed'))
+            })
+        })
+    </script>
+</head>
+<body>
+    <span id="existed"> Course</span>
+    <div>jQuery</div>
+    <div>Python</div>
+    <div>JS</div>
+    <br />
+    <input type="button" value="Submit" id="btnSubmit">
+    <br />
+    <div id="result"></div>
+</body>
+</html>

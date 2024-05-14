@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <style>
+        .color {
+            color: red;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $('#btnHasClass').click(function() {
+                alert($('h1').hasClass('color'))
+            })
+            $('#btnAddClass').click(function() {
+                $('h1').addClass('color')
+            })
+            $('#btnRemoveClass').click(function() {
+                $('h1').removeClass('color')
+            })
+            $('#btnToggleClass').click(function() {
+                $('h1').toggleClass('color')
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>jQuery</h1>
+    <br />
+    <button id="btnHasClass">Has Class?</button>
+    <button id="btnAddClass">Add Class</button>
+    <button id="btnRemoveClass">Remove Class</button>
+    <button id="btnToggleClass">Toggle Class</button>
+</body>
+</html>

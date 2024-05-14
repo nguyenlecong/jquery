@@ -1,0 +1,4 @@
+- hasClass: trả về true nếu phần tử có chứa class được chỉ ra, ngược lại là false
+- addClass: thêm mới một hoặc nhiều class vào phần tử. Để add nhiều class sẽ cách nhau dấu cách
+- removeClass: xóa một hay nhiều class trong một selector. Để xóa tất cả class trong phần tử thì không chỉ ra tên
+- toggleClass: Nếu phần tử có class chỉ định sẽ remove, ngược lại không có sẽ add

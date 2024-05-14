@@ -1,0 +1,4 @@
+- Sự kiện mouseover và mouseout
+  - Khi hover chuột vào icon thì sẽ hiển thị help text và di chuột ra sẽ ẩn đi
+- mouseenter và mouseleave
+- Ngoài ra có thể sử dụng hover() nhận tham số là 2 function, một cho sự kiện mouseenter và một cho sự kiện mouseleave

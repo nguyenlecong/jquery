@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('img[src="../help.png"]')
+            .mouseover(function() {
+                $(this).css('cursor', 'pointer')
+                $('#' + getDivHelp(this)).fadeIn(500)
+            })
+            .mouseout(function() {
+                $('#' + getDivHelp(this)).fadeOut(500)
+            })
+        })
+        function getDivHelp(helpIcon) {
+            return $(helpIcon).attr('id').replace('img', 'div')
+        }
+    </script>
+    <style>
+        img {
+            display:block;
+            width:30px;
+            height:30px;
+          }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>
+                <input type="text" id="txtFirstName" class="inputRequired">
+            </td>
+            <td>
+                <img src="../help.png" id="imgHelp1">
+            </td>
+            <td>
+                <div id="divHelp1" style="display:none">
+                    Please do st
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                <select id="ddlCity" class="inputRequired">
+                    <option value="Select">Select</option>
+                    <option value="NY">NY</option>
+                    <option value="LA">LA</option>
+                    <option value="SF">SF</option>
+                </select>
+            </td>
+            <td>
+                <img src="../help.png" id="imgHelp2">
+            </td>
+            <td>
+                <div id="divHelp2" style="display:none">
+                    Please do st
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="btnSubmit" value="Submit">
+            </td>
+            <td>
+                <div id="result"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -16,5 +16,6 @@
 15. Prepend and Append
 16. Insert Element befor and after
 17. CSS Class
+18. map()
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)

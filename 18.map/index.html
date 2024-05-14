@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../jquery-migrate-1.4.1.min.js"></script>
+    <style>
+        .color {
+            color: red;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            alert($('li').map(function(index, element) {
+                if ($(element).text()!='C++') {
+                    return $(element).text()
+                }
+            }).get().join('|'))
+        })
+    </script>
+</head>
+<body>
+    <ul>
+        <li>Python</li>
+        <li>JS</li>
+        <li>C++</li>
+</ul>
+</body>
+</html>

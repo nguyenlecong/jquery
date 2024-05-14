@@ -1,0 +1,3 @@
+- Phương thức map() về cơ bản giống với each(), cũng dùng để lặp qua các phần tử trong DOM
+- Khi muốn tạo ra một array hay một chuỗi string dựa trên các phần tử DOM thì dùng map() tốt hơn dùng each()
+- Tốt hơn về hiệu suất và code ngắn gọn hơn

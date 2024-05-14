@@ -1,0 +1,6 @@
+- Sự kiện change xảy ra khi một giá trị của element bị thay đổi
+- Các element sau đây thường sử dụng event này:
+  - input
+  - textarea
+  - select
+- Radio button và checkbox phát sinh sự kiện sớm nhất khi người dùng click chọn trong khi các phần tử khác thì phải đợi lost focus

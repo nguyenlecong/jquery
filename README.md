@@ -17,5 +17,6 @@
 16. Insert Element befor and after
 17. CSS Class
 18. map()
+19. Change event
 
 [^1]: [Lập trình jQuery từ căn bản đến nâng cao](https://www.youtube.com/watch?v=AEMXXWrJmHU&list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm&index=1)
